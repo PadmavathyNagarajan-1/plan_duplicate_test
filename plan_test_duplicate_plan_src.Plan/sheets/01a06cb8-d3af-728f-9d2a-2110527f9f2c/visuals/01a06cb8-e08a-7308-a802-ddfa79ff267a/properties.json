@@ -1,0 +1,992 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/plan/definition/Planning/Properties/1.0.0/schema.json",
+  "properties": {
+    "advanceLookup": [],
+    "chartType": "COLUMN_VERTICAL",
+    "dimension": {
+      "height": 0.49,
+      "width": 0.99
+    },
+    "groupMeasureAssignments": [],
+    "groupName": "",
+    "layerProperties": {
+      "layerProperties": {
+        "groupIds": [],
+        "isHidden": false,
+        "name": "Target"
+      },
+      "order": 0
+    },
+    "lockAspectRatio": false,
+    "mobileProperties": {},
+    "originEntityId": "4",
+    "pivotAssignments": [
+      {
+        "bucketId": "rows",
+        "columnName": "ClassName",
+        "columnType": "Column",
+        "contents": "",
+        "dataRoleType": "Grouping",
+        "dataType": "String",
+        "distinctValueCount": 0,
+        "formatString": "",
+        "id": "DimProduct[ClassName]",
+        "isFlatHierarchy": false,
+        "isHierarchyItemInMeasure": false,
+        "name": "ClassName",
+        "order": 0,
+        "sourceId": "DimProduct[ClassName]",
+        "sourceType": "PowerBI",
+        "tableName": "DimProduct"
+      },
+      {
+        "bucketId": "columns",
+        "columnName": "Year",
+        "columnType": "Hierarchy Level",
+        "contents": "",
+        "dataRoleType": "Grouping",
+        "dataType": "Int64",
+        "distinctValueCount": 0,
+        "formatString": null,
+        "group": "Date[Date]",
+        "groupDataType": "DateTime",
+        "hierarchyName": "Date",
+        "id": "LocalDateTable_cdf63dda-9846-477a-9745-f4049ae7b78c[Year]",
+        "isFlatHierarchy": false,
+        "isHierarchyItemInMeasure": false,
+        "name": "Year",
+        "order": 0,
+        "sourceId": "LocalDateTable_cdf63dda-9846-477a-9745-f4049ae7b78c[Year]",
+        "sourceType": "PowerBI",
+        "tableName": "LocalDateTable_cdf63dda-9846-477a-9745-f4049ae7b78c"
+      },
+      {
+        "bucketId": "columns",
+        "columnName": "Month",
+        "columnType": "Hierarchy Level",
+        "contents": "",
+        "dataRoleType": "Grouping",
+        "dataType": "String",
+        "distinctValueCount": 0,
+        "formatString": null,
+        "group": "Date[Date]",
+        "groupDataType": "DateTime",
+        "hierarchyName": "Date",
+        "id": "LocalDateTable_cdf63dda-9846-477a-9745-f4049ae7b78c[Month]",
+        "isFlatHierarchy": false,
+        "isHierarchyItemInMeasure": false,
+        "name": "Month",
+        "order": 1,
+        "sourceId": "LocalDateTable_cdf63dda-9846-477a-9745-f4049ae7b78c[Month]",
+        "sourceType": "PowerBI",
+        "tableName": "LocalDateTable_cdf63dda-9846-477a-9745-f4049ae7b78c"
+      },
+      {
+        "aggregationType": "sum",
+        "bucketId": "ameasure",
+        "columnName": "Number",
+        "columnType": "Column",
+        "contents": null,
+        "customName": "Sum of Number",
+        "dataRoleType": "Measure",
+        "dataType": "Double",
+        "distinctValueCount": null,
+        "formatString": null,
+        "id": "4967446050891514398",
+        "isFlatHierarchy": false,
+        "measureGuid": "12886278829114309938",
+        "name": "Sum of Number",
+        "order": 0,
+        "sourceId": "4967446050891514398",
+        "sourceType": "Visual",
+        "tableName": "Planning 1",
+        "visualId": "01a066bb-0d25-753e-994b-23cbd3380446"
+      }
+    ],
+    "position": {
+      "x": 0.005,
+      "y": 0.5000000000000003
+    },
+    "preVisualId": "4",
+    "shapeType": "RECTANGLE",
+    "sortingConfig": [],
+    "splitByCategory": {
+      "pivotValueAssignments": [],
+      "splitByCategoryAssignments": [],
+      "splitByCategoryItems": [],
+      "splitByDelimiter": "-"
+    },
+    "superFilterAssignments": [
+      {
+        "bucketId": "rows",
+        "configuration": {
+          "filterMode": "basic",
+          "filterOperator": "is",
+          "hide": false,
+          "isExpanded": false,
+          "locked": false,
+          "measureSearch": true,
+          "name": "ClassName",
+          "paneWidth": 200,
+          "selectAll": true,
+          "sheetDataItemAggregationType": "sum",
+          "singleSelect": false,
+          "sort": [
+            {
+              "columnId": "DimProduct[ClassName]",
+              "columnName": "ClassName",
+              "direction": "ASC",
+              "id": "DimProduct[ClassName]"
+            }
+          ],
+          "toolBarTrigger": false,
+          "topN": {
+            "displayOthers": true,
+            "otherLabel": "Others",
+            "rankMeasure": "",
+            "rankMeasureLabel": "",
+            "rankMode": "TOP",
+            "rankType": "value",
+            "rankValue": 5
+          },
+          "visualType": "FACET"
+        },
+        "filter": [],
+        "filterLevel": "visual",
+        "id": "filter_1788530459479_kpkdcoizr",
+        "isDaxMeasure": false,
+        "isDefault": true,
+        "isDefaultMeasure": false,
+        "pivotAssignments": [
+          {
+            "bucketId": "rows",
+            "columnName": "ClassName",
+            "columnType": "Column",
+            "contents": "",
+            "dataRoleType": "Grouping",
+            "dataType": "String",
+            "distinctValueCount": 0,
+            "formatString": "",
+            "id": "DimProduct[ClassName]",
+            "isFlatHierarchy": false,
+            "name": "ClassName",
+            "order": 0,
+            "sourceId": "DimProduct[ClassName]",
+            "sourceType": "PowerBI",
+            "tableName": "DimProduct"
+          }
+        ],
+        "position": "RIGHT"
+      },
+      {
+        "bucketId": "columns",
+        "configuration": {
+          "alphaNumericValues": {
+            "equalValue": null,
+            "maxValue": null,
+            "minValue": null
+          },
+          "enableNumericToFacet": false,
+          "filterMode": "basic",
+          "filterOperator": "is",
+          "hide": false,
+          "isExpanded": false,
+          "locked": false,
+          "measureSearch": true,
+          "name": "Year",
+          "paneWidth": 200,
+          "regex": "",
+          "scale": "none",
+          "selectAll": true,
+          "sheetDataItemAggregationType": "sum",
+          "singleSelect": false,
+          "slider": false,
+          "sort": [
+            {
+              "columnId": "LocalDateTable_cdf63dda-9846-477a-9745-f4049ae7b78c[Year]",
+              "columnName": "Year",
+              "direction": "ASC",
+              "id": "LocalDateTable_cdf63dda-9846-477a-9745-f4049ae7b78c[Year]"
+            }
+          ],
+          "toolBarTrigger": false,
+          "topN": {
+            "displayOthers": true,
+            "otherLabel": "Others",
+            "rankMeasure": "",
+            "rankMeasureLabel": "",
+            "rankMode": "TOP",
+            "rankType": "value",
+            "rankValue": 5
+          },
+          "visualType": "NUMERIC"
+        },
+        "filter": [],
+        "filterLevel": "visual",
+        "id": "filter_1788530466402_3tqh8wjwv",
+        "isDaxMeasure": false,
+        "isDefault": true,
+        "isDefaultMeasure": false,
+        "pivotAssignments": [
+          {
+            "bucketId": "columns",
+            "columnName": "Year",
+            "columnType": "Hierarchy Level",
+            "contents": "",
+            "dataRoleType": "Grouping",
+            "dataType": "Int64",
+            "distinctValueCount": 0,
+            "formatString": null,
+            "group": "Date[Date]",
+            "groupDataType": "DateTime",
+            "hierarchyName": "Date",
+            "id": "LocalDateTable_cdf63dda-9846-477a-9745-f4049ae7b78c[Year]",
+            "isFlatHierarchy": false,
+            "isHierarchyItemInMeasure": false,
+            "name": "Year",
+            "order": 0,
+            "sourceId": "LocalDateTable_cdf63dda-9846-477a-9745-f4049ae7b78c[Year]",
+            "sourceType": "PowerBI",
+            "tableName": "LocalDateTable_cdf63dda-9846-477a-9745-f4049ae7b78c"
+          }
+        ],
+        "position": "RIGHT"
+      },
+      {
+        "bucketId": "columns",
+        "configuration": {
+          "filterMode": "basic",
+          "filterOperator": "is",
+          "hide": false,
+          "isExpanded": false,
+          "locked": false,
+          "measureSearch": true,
+          "name": "Month",
+          "paneWidth": 200,
+          "selectAll": true,
+          "sheetDataItemAggregationType": "sum",
+          "singleSelect": false,
+          "sort": [
+            {
+              "columnId": "LocalDateTable_cdf63dda-9846-477a-9745-f4049ae7b78c[Month]",
+              "columnName": "Month",
+              "direction": "ASC",
+              "id": "LocalDateTable_cdf63dda-9846-477a-9745-f4049ae7b78c[Month]"
+            }
+          ],
+          "toolBarTrigger": false,
+          "topN": {
+            "displayOthers": true,
+            "otherLabel": "Others",
+            "rankMeasure": "",
+            "rankMeasureLabel": "",
+            "rankMode": "TOP",
+            "rankType": "value",
+            "rankValue": 5
+          },
+          "visualType": "FACET"
+        },
+        "filter": [],
+        "filterLevel": "visual",
+        "id": "filter_1788530473389_q60ult08w",
+        "isDaxMeasure": false,
+        "isDefault": true,
+        "isDefaultMeasure": false,
+        "pivotAssignments": [
+          {
+            "bucketId": "columns",
+            "columnName": "Month",
+            "columnType": "Hierarchy Level",
+            "contents": "",
+            "dataRoleType": "Grouping",
+            "dataType": "String",
+            "distinctValueCount": 0,
+            "formatString": null,
+            "group": "Date[Date]",
+            "groupDataType": "DateTime",
+            "hierarchyName": "Date",
+            "id": "LocalDateTable_cdf63dda-9846-477a-9745-f4049ae7b78c[Month]",
+            "isFlatHierarchy": false,
+            "isHierarchyItemInMeasure": false,
+            "name": "Month",
+            "order": 1,
+            "sourceId": "LocalDateTable_cdf63dda-9846-477a-9745-f4049ae7b78c[Month]",
+            "sourceType": "PowerBI",
+            "tableName": "LocalDateTable_cdf63dda-9846-477a-9745-f4049ae7b78c"
+          }
+        ],
+        "position": "RIGHT"
+      },
+      {
+        "bucketId": "ameasure",
+        "configuration": {
+          "alphaNumericValues": {
+            "equalValue": null,
+            "maxValue": null,
+            "minValue": null
+          },
+          "enableNumericToFacet": false,
+          "filterMode": "advanced",
+          "filterOperator": "between",
+          "hide": false,
+          "isExpanded": false,
+          "locked": false,
+          "measureSearch": true,
+          "name": "Sum of Number",
+          "paneWidth": 200,
+          "regex": "",
+          "scale": "none",
+          "selectAll": true,
+          "sheetDataItemAggregationType": "sum",
+          "singleSelect": false,
+          "slider": false,
+          "sort": [
+            {
+              "columnId": "2",
+              "columnName": "Number",
+              "direction": "ASC",
+              "id": "2",
+              "visualId": "01a066bb-0d25-753e-994b-23cbd3380446"
+            }
+          ],
+          "toolBarTrigger": false,
+          "topN": {
+            "displayOthers": true,
+            "otherLabel": "Others",
+            "rankMeasure": "",
+            "rankMeasureLabel": "",
+            "rankMode": "TOP",
+            "rankType": "value",
+            "rankValue": 5
+          },
+          "visualType": "NUMERIC"
+        },
+        "filter": [],
+        "filterLevel": "visual",
+        "id": "filter_1788530479888_hzgijrlse",
+        "isDaxMeasure": false,
+        "isDefault": true,
+        "isDefaultMeasure": true,
+        "pivotAssignments": [
+          {
+            "bucketId": "rows",
+            "columnName": "ClassName",
+            "columnType": "Column",
+            "contents": "",
+            "dataRoleType": "Grouping",
+            "dataType": "String",
+            "distinctValueCount": 0,
+            "formatString": "",
+            "id": "DimProduct[ClassName]",
+            "isFlatHierarchy": false,
+            "isHierarchyItemInMeasure": false,
+            "name": "ClassName",
+            "order": 0,
+            "sourceId": "DimProduct[ClassName]",
+            "sourceType": "PowerBI",
+            "tableName": "DimProduct"
+          },
+          {
+            "bucketId": "columns",
+            "columnName": "Year",
+            "columnType": "Hierarchy Level",
+            "contents": "",
+            "dataRoleType": "Grouping",
+            "dataType": "Int64",
+            "distinctValueCount": 0,
+            "formatString": null,
+            "group": "Date[Date]",
+            "groupDataType": "DateTime",
+            "hierarchyName": "Date",
+            "id": "LocalDateTable_cdf63dda-9846-477a-9745-f4049ae7b78c[Year]",
+            "isFlatHierarchy": false,
+            "isHierarchyItemInMeasure": false,
+            "name": "Year",
+            "order": 0,
+            "sourceId": "LocalDateTable_cdf63dda-9846-477a-9745-f4049ae7b78c[Year]",
+            "sourceType": "PowerBI",
+            "tableName": "LocalDateTable_cdf63dda-9846-477a-9745-f4049ae7b78c"
+          },
+          {
+            "bucketId": "columns",
+            "columnName": "Month",
+            "columnType": "Hierarchy Level",
+            "contents": "",
+            "dataRoleType": "Grouping",
+            "dataType": "String",
+            "distinctValueCount": 0,
+            "formatString": null,
+            "group": "Date[Date]",
+            "groupDataType": "DateTime",
+            "hierarchyName": "Date",
+            "id": "LocalDateTable_cdf63dda-9846-477a-9745-f4049ae7b78c[Month]",
+            "isFlatHierarchy": false,
+            "isHierarchyItemInMeasure": false,
+            "name": "Month",
+            "order": 1,
+            "sourceId": "LocalDateTable_cdf63dda-9846-477a-9745-f4049ae7b78c[Month]",
+            "sourceType": "PowerBI",
+            "tableName": "LocalDateTable_cdf63dda-9846-477a-9745-f4049ae7b78c"
+          },
+          {
+            "aggregationType": "sum",
+            "bucketId": "ameasure",
+            "columnName": "Number",
+            "columnType": "Column",
+            "contents": null,
+            "customName": "Sum of Number",
+            "dataRoleType": "Measure",
+            "dataType": "Double",
+            "distinctValueCount": null,
+            "formatString": null,
+            "id": "4967446050891514398",
+            "isFlatHierarchy": false,
+            "name": "Sum of Number",
+            "order": 0,
+            "sourceId": "4967446050891514398",
+            "sourceType": "Visual",
+            "tableName": "Planning 1",
+            "visualId": "01a066bb-0d25-753e-994b-23cbd3380446"
+          }
+        ],
+        "position": "RIGHT"
+      },
+      {
+        "configuration": {
+          "filterMode": "basic",
+          "filterOperator": "is",
+          "hide": false,
+          "isExpanded": false,
+          "locked": false,
+          "measureSearch": true,
+          "name": "BrandName",
+          "paneWidth": 200,
+          "selectAll": true,
+          "sheetDataItemAggregationType": "sum",
+          "singleSelect": false,
+          "sort": [
+            {
+              "columnId": "[DimProduct[[H] Product Hierarchy]]~||~DimProduct[BrandName]",
+              "columnName": "BrandName",
+              "direction": "ASC",
+              "id": "[DimProduct[[H] Product Hierarchy]]~||~DimProduct[BrandName]"
+            }
+          ],
+          "toolBarTrigger": false,
+          "topN": {
+            "displayOthers": true,
+            "otherLabel": "Others",
+            "rankMeasure": "",
+            "rankMeasureLabel": "",
+            "rankMode": "TOP",
+            "rankType": "value",
+            "rankValue": 5
+          },
+          "visualType": "FACET"
+        },
+        "filter": [],
+        "filterLevel": "visual",
+        "id": "filter_1788530506098_5wom8075w",
+        "pivotAssignments": [
+          {
+            "bucketId": "Category",
+            "columnName": "BrandName",
+            "columnType": "Hierarchy Level",
+            "contents": "",
+            "dataRoleType": "Grouping",
+            "dataType": "String",
+            "distinctValueCount": 0,
+            "formatString": "",
+            "groupDataType": "Hierarchy",
+            "groupLabel": "[H] Product Hierarchy",
+            "id": "[DimProduct[[H] Product Hierarchy]]~||~DimProduct[BrandName]",
+            "isFlatHierarchy": false,
+            "isHierarchyItemInMeasure": false,
+            "name": "BrandName",
+            "order": 0,
+            "sourceId": "[DimProduct[[H] Product Hierarchy]]~||~DimProduct[BrandName]",
+            "sourceType": "PowerBI",
+            "tableName": "DimProduct"
+          }
+        ],
+        "position": "RIGHT"
+      },
+      {
+        "configuration": {
+          "filterMode": "basic",
+          "filterOperator": "is",
+          "hide": false,
+          "isExpanded": true,
+          "isSliderAndChartsEnabled": true,
+          "locked": false,
+          "measureFilter": {
+            "maxValue": null,
+            "minValue": null
+          },
+          "measureSearch": true,
+          "name": "ProductSubcategoryName",
+          "paneWidth": 200,
+          "selectAll": true,
+          "selectAllState": "UNSELECTED",
+          "sheetDataItemAggregationType": "sum",
+          "singleSelect": false,
+          "sort": [
+            {
+              "columnId": "[DimProduct[[H] Product Hierarchy]]~||~DimProduct[ProductSubcategoryName]",
+              "columnName": "ProductSubcategoryName",
+              "direction": "ASC",
+              "id": "[DimProduct[[H] Product Hierarchy]]~||~DimProduct[ProductSubcategoryName]"
+            }
+          ],
+          "toolBarTrigger": false,
+          "topN": {
+            "displayOthers": true,
+            "otherLabel": "Others",
+            "rankMeasure": "",
+            "rankMeasureLabel": "",
+            "rankMode": "TOP",
+            "rankType": "value",
+            "rankValue": 5
+          },
+          "visualType": "FACET"
+        },
+        "filter": [],
+        "filterLevel": "visual",
+        "id": "filter_1788530506098_fe7wdjiev",
+        "pivotAssignments": [
+          {
+            "bucketId": "Category",
+            "columnName": "ProductSubcategoryName",
+            "columnType": "Hierarchy Level",
+            "contents": "",
+            "dataRoleType": "Grouping",
+            "dataType": "String",
+            "distinctValueCount": 0,
+            "formatString": "",
+            "groupDataType": "Hierarchy",
+            "groupLabel": "[H] Product Hierarchy",
+            "id": "[DimProduct[[H] Product Hierarchy]]~||~DimProduct[ProductSubcategoryName]",
+            "isFlatHierarchy": false,
+            "isHierarchyItemInMeasure": false,
+            "name": "ProductSubcategoryName",
+            "order": 0,
+            "sourceId": "[DimProduct[[H] Product Hierarchy]]~||~DimProduct[ProductSubcategoryName]",
+            "sourceType": "PowerBI",
+            "tableName": "DimProduct"
+          }
+        ],
+        "position": "RIGHT"
+      },
+      {
+        "configuration": {
+          "filterMode": "basic",
+          "filterOperator": "is",
+          "hide": false,
+          "isExpanded": false,
+          "locked": false,
+          "measureSearch": true,
+          "name": "ProductName",
+          "paneWidth": 200,
+          "selectAll": true,
+          "sheetDataItemAggregationType": "sum",
+          "singleSelect": false,
+          "sort": [
+            {
+              "columnId": "[DimProduct[[H] Product Hierarchy]]~||~DimProduct[ProductName]",
+              "columnName": "ProductName",
+              "direction": "ASC",
+              "id": "[DimProduct[[H] Product Hierarchy]]~||~DimProduct[ProductName]"
+            }
+          ],
+          "toolBarTrigger": false,
+          "topN": {
+            "displayOthers": true,
+            "otherLabel": "Others",
+            "rankMeasure": "",
+            "rankMeasureLabel": "",
+            "rankMode": "TOP",
+            "rankType": "value",
+            "rankValue": 5
+          },
+          "visualType": "FACET"
+        },
+        "filter": [],
+        "filterLevel": "visual",
+        "id": "filter_1788530506098_gfe2e2al2",
+        "pivotAssignments": [
+          {
+            "bucketId": "Category",
+            "columnName": "ProductName",
+            "columnType": "Hierarchy Level",
+            "contents": "",
+            "dataRoleType": "Grouping",
+            "dataType": "String",
+            "distinctValueCount": 0,
+            "formatString": "",
+            "groupDataType": "Hierarchy",
+            "groupLabel": "[H] Product Hierarchy",
+            "id": "[DimProduct[[H] Product Hierarchy]]~||~DimProduct[ProductName]",
+            "isFlatHierarchy": false,
+            "isHierarchyItemInMeasure": false,
+            "name": "ProductName",
+            "order": 0,
+            "sourceId": "[DimProduct[[H] Product Hierarchy]]~||~DimProduct[ProductName]",
+            "sourceType": "PowerBI",
+            "tableName": "DimProduct"
+          }
+        ],
+        "position": "RIGHT"
+      }
+    ],
+    "transformMeasure": "none",
+    "visualInteractions": {},
+    "visualState": {
+      "chartCustomTitle": {
+        "customTitle": {
+          "containerMeta": {
+            "height": 45,
+            "width": 1142
+          },
+          "containerPosition": "top",
+          "elements": [
+            {
+              "align": "left",
+              "background": null,
+              "border": [],
+              "borderColor": "",
+              "borderRadius": "0px",
+              "borderWidth": "1px",
+              "containerBackground": null,
+              "content": "<span class='mention' data-value='{\"id\":\"[fields]\",\"fieldKey\":\"title\",\"key\":\"fields\"}'>[fields]</span><p><span style=\"font-size: 12px;\"><span class='mention' data-value='{\"id\":\"[scaling]\",\"fieldKey\":\"title\",\"key\":\"scaling\"}'>[scaling]</span></span></p>",
+              "dimension": {
+                "height": "30",
+                "width": "150"
+              },
+              "id": "left-col",
+              "layout": {
+                "h": 3,
+                "i": "left-col",
+                "static": false,
+                "w": 32,
+                "x": 0,
+                "y": 0
+              },
+              "marginBottom": "0px",
+              "marginLeft": "0px",
+              "marginRight": "0px",
+              "marginTop": "0px",
+              "position": {
+                "left": 0,
+                "top": 0
+              },
+              "shadowColor": "",
+              "shadowPosition": "",
+              "type": "DEFAULT_TITLE",
+              "verticalAlign": "MIDDLE"
+            }
+          ],
+          "layout": "left-col",
+          "layoutType": "CUSTOM"
+        },
+        "measureTitle": "",
+        "primaryTitle": "",
+        "secondaryTitle": ""
+      },
+      "columnDimensions": [
+        {
+          "externalKey": "LocalDateTable_cdf63dda-9846-477a-9745-f4049ae7b78c[Year]",
+          "id": "9375281995746324753",
+          "isTimeDimension": true,
+          "label": "Year",
+          "timeIntervalUnit": "Year"
+        },
+        {
+          "externalKey": "LocalDateTable_cdf63dda-9846-477a-9745-f4049ae7b78c[Month]",
+          "id": "82274462402208218",
+          "isTimeDimension": true,
+          "label": "Month",
+          "timeIntervalUnit": "Month"
+        }
+      ],
+      "embeddedSuperFilter": {
+        "superFilterAssignments": [
+          {
+            "configuration": {
+              "filterMode": "basic",
+              "filterOperator": "is",
+              "hide": false,
+              "isExpanded": true,
+              "isSliderAndChartsEnabled": true,
+              "locked": false,
+              "measureFilter": {
+                "maxValue": null,
+                "minValue": null
+              },
+              "measureSearch": true,
+              "name": "ProductSubcategoryName",
+              "paneWidth": 200,
+              "selectAll": true,
+              "selectAllState": "UNSELECTED",
+              "sheetDataItemAggregationType": "sum",
+              "singleSelect": false,
+              "sort": [
+                {
+                  "columnId": "[DimProduct[[H] Product Hierarchy]]~||~DimProduct[ProductSubcategoryName]",
+                  "columnName": "ProductSubcategoryName",
+                  "direction": "ASC",
+                  "id": "[DimProduct[[H] Product Hierarchy]]~||~DimProduct[ProductSubcategoryName]"
+                }
+              ],
+              "toolBarTrigger": false,
+              "topN": {
+                "displayOthers": true,
+                "otherLabel": "Others",
+                "rankMeasure": "",
+                "rankMeasureLabel": "",
+                "rankMode": "TOP",
+                "rankType": "value",
+                "rankValue": 5
+              },
+              "visualType": "FACET"
+            },
+            "filter": [
+              {
+                "columnDataType": [
+                  "String"
+                ],
+                "columnIds": [
+                  "[DimProduct[[H] Product Hierarchy]]~||~DimProduct[ProductSubcategoryName]"
+                ],
+                "columnNames": [
+                  "ProductSubcategoryName"
+                ],
+                "columnType": [
+                  "Hierarchy Level"
+                ],
+                "dataType": [
+                  "string"
+                ],
+                "filterType": "VALUES",
+                "sourceType": [
+                  "PowerBI"
+                ],
+                "tableNames": [
+                  "DimProduct"
+                ],
+                "valuesFilter": [
+                  {
+                    "id": [
+                      "Air Conditioners"
+                    ],
+                    "label": [
+                      "Air Conditioners"
+                    ]
+                  }
+                ],
+                "valuesFilterApplicationType": "include"
+              }
+            ],
+            "filterLevel": "page",
+            "id": "filter_1788530630924_lxx0h4h8b",
+            "pivotAssignments": [
+              {
+                "bucketId": "Category",
+                "columnName": "ProductSubcategoryName",
+                "columnType": "Hierarchy Level",
+                "contents": "",
+                "dataRoleType": "Grouping",
+                "dataType": "String",
+                "distinctValueCount": 0,
+                "formatString": "",
+                "groupDataType": "Hierarchy",
+                "groupLabel": "[H] Product Hierarchy",
+                "id": "[DimProduct[[H] Product Hierarchy]]~||~DimProduct[ProductSubcategoryName]",
+                "isFlatHierarchy": false,
+                "isHierarchyItemInMeasure": false,
+                "name": "ProductSubcategoryName",
+                "order": 0,
+                "sourceId": "[DimProduct[[H] Product Hierarchy]]~||~DimProduct[ProductSubcategoryName]",
+                "sourceType": "PowerBI",
+                "tableName": "DimProduct"
+              }
+            ],
+            "position": "RIGHT"
+          }
+        ]
+      },
+      "filterContextProperties": {
+        "filterContextDimensions": [],
+        "filterContextHash": null,
+        "filterContextHashMap": {},
+        "filterContextJson": {}
+      },
+      "locale": "en-US",
+      "manage_measures": [
+        {
+          "id": "12886278829114309938",
+          "label": "Sum of Number",
+          "order": 0,
+          "visible": true
+        }
+      ],
+      "ranking_config": {
+        "exemptions": {},
+        "others_title": "Others",
+        "rank_rules": [],
+        "show_category_suffix": false,
+        "show_others": true
+      },
+      "rowDimensions": [
+        {
+          "externalKey": "DimProduct[ClassName]",
+          "id": "5087203771231321610",
+          "isNative": true,
+          "label": "ClassName"
+        }
+      ],
+      "toolbar": {
+        "currentTab": "",
+        "enableHoverToolbar": true,
+        "hideDuplicateReportWarning": false,
+        "isPinned": false,
+        "readViewPin": true,
+        "setCanvasResize": false,
+        "showFloatingToolbar": true,
+        "showForecastTab": false,
+        "showMinimalTabEditMode": true,
+        "showMinimalView": true,
+        "showOnHover": false,
+        "showTabContent": true,
+        "toolbarTheme": "light"
+      },
+      "totals_config": {
+        "column_grand_total": "Left",
+        "column_sub_total": null,
+        "freeze_total": false,
+        "row_grand_total": "Top",
+        "row_sub_total": "Top"
+      },
+      "visualStyles": {
+        "background": {
+          "backgroundColor": "#FFFFFF",
+          "isEnabled": true
+        },
+        "border": {
+          "color": "#DDDDDD",
+          "isEnabled": false,
+          "side": "all",
+          "width": 1
+        },
+        "cornerRadius": {
+          "isCustomCornerRadius": false,
+          "isEnabled": true,
+          "radiusBottomLeft": 0,
+          "radiusBottomRight": 0,
+          "radiusTopLeft": 0,
+          "radiusTopRight": 0
+        },
+        "isTooltipEnabled": true,
+        "padding": {
+          "bottomPadding": 5,
+          "isCustomPaddingSize": false,
+          "isEnabled": true,
+          "leftPadding": 5,
+          "rightPadding": 5,
+          "topPadding": 5
+        },
+        "rotation": {
+          "isEnabled": false,
+          "transform": 0
+        },
+        "shadow": {
+          "angle": 135,
+          "blur": 8,
+          "color": "#0000003f",
+          "distance": 10,
+          "isEnabled": false,
+          "opacity": 100,
+          "placement": "outer",
+          "side": "bottom",
+          "width": 0
+        },
+        "showHelperTooltips": true,
+        "showSelectedSeriesInTooltip": false,
+        "tooltipPageId": "auto",
+        "tooltipStyle": {
+          "backgroundColor": "#FFFFFF",
+          "bold": false,
+          "fontFamily": "Segoe UI",
+          "fontSize": 12,
+          "italic": false,
+          "labelColor": "#252423",
+          "underline": false,
+          "valueColor": "#252423"
+        },
+        "tooltipType": "default",
+        "varianceInTooltip": true,
+        "varianceTooltipType": "both"
+      }
+    },
+    "visualStyles": {
+      "background": {
+        "backgroundColor": "#FFFFFF",
+        "isEnabled": true
+      },
+      "border": {
+        "color": "#DDDDDD",
+        "isEnabled": false,
+        "side": "all",
+        "width": 1
+      },
+      "cornerRadius": {
+        "isCustomCornerRadius": false,
+        "isEnabled": true,
+        "radiusBottomLeft": 0,
+        "radiusBottomRight": 0,
+        "radiusTopLeft": 0,
+        "radiusTopRight": 0
+      },
+      "isTooltipEnabled": true,
+      "padding": {
+        "bottomPadding": 5,
+        "isCustomPaddingSize": false,
+        "isEnabled": true,
+        "leftPadding": 5,
+        "rightPadding": 5,
+        "topPadding": 5
+      },
+      "rotation": {
+        "isEnabled": false,
+        "transform": 0
+      },
+      "shadow": {
+        "angle": 135,
+        "blur": 8,
+        "color": "#0000003f",
+        "distance": 10,
+        "isEnabled": false,
+        "opacity": 100,
+        "placement": "outer",
+        "side": "bottom",
+        "width": 0
+      },
+      "showHelperTooltips": true,
+      "showSelectedSeriesInTooltip": false,
+      "tooltipPageId": "auto",
+      "tooltipStyle": {
+        "backgroundColor": "#FFFFFF",
+        "bold": false,
+        "fontFamily": "Segoe UI",
+        "fontSize": 12,
+        "italic": false,
+        "labelColor": "#252423",
+        "underline": false,
+        "valueColor": "#252423"
+      },
+      "tooltipType": "default",
+      "varianceInTooltip": true,
+      "varianceTooltipType": "both"
+    },
+    "visualType": 80
+  }
+}

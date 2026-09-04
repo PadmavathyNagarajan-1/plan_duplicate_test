@@ -6,23 +6,23 @@
       "columnMeta": {
         "data_type": "Number",
         "description": null,
-        "id": "11479574445228897472",
-        "label": "Sum of SalesAmount",
+        "id": "12886278829114309938",
+        "label": "Sum of Number",
         "measure_type": {
           "Native": {
             "measure_role": "ACMeasure"
           }
         },
-        "name": "Sum of SalesAmount"
+        "name": "Sum of Number"
       },
       "dataInputType": 6,
       "description": null,
-      "measureGuid": "11479574445228897472",
-      "name": "Sum of SalesAmount",
+      "measureGuid": "12886278829114309938",
+      "name": "Sum of Number",
       "sidecarHydrationLeaseAt": null,
       "sidecarHydrationStatus": 10,
       "status": 10,
-      "visualId": "01a06cb8-a8fe-72cc-8e2c-ef3d8c521958"
+      "visualId": "01a06cb8-e08a-7308-a802-ddfa79ff267a"
     }
   ]
 }

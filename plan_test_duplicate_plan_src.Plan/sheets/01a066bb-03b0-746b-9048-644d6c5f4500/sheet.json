@@ -161,11 +161,10 @@
     "excludedFilterContextAssignments": {},
     "filterContextUserConfig": {},
     "filterPanePosition": "RIGHT",
-    "pageLevelFilterAssignments": [],
     "sourceVisualsMeta": {},
     "topPositionFilterExpandConfig": {
       "expandedHeight": 250,
-      "isFilterPaneCollapsed": true
+      "isFilterPaneCollapsed": false
     },
     "visualGroupMap": {}
   }
