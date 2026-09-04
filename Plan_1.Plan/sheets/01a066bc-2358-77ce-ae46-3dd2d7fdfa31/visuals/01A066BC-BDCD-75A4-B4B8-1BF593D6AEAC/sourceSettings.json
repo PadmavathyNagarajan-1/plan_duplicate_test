@@ -1,0 +1,86 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/plan/definition/PowerTable/Settings/1.0.0/schema.json",
+  "sourceSettings": [
+    {
+      "name": "SCD",
+      "recordGuid": "A5F44540-7FA7-F111-A6A7-000D3A7FB247",
+      "settings": {
+        "config": {
+          "businessKey": "",
+          "identifierKeys": {
+            "activeFlag": "",
+            "allowEditStartDate": false,
+            "effectiveDate": "",
+            "endDate": "",
+            "endDateDefaultValue": null,
+            "startDate": ""
+          },
+          "selectedColumns": []
+        },
+        "enabled": false,
+        "type": 2
+      },
+      "sourceId": "A1F44540-7FA7-F111-A6A7-000D3A7FB247"
+    },
+    {
+      "name": "COMMENT_SETTINGS",
+      "recordGuid": "A6F44540-7FA7-F111-A6A7-000D3A7FB247",
+      "settings": {
+        "displayComment": true,
+        "notification": true,
+        "rowLevelComments": false,
+        "toggleAddonColumns": false
+      },
+      "sourceId": "A1F44540-7FA7-F111-A6A7-000D3A7FB247"
+    },
+    {
+      "filters": [
+        {
+          "filter": {},
+          "filterType": 1,
+          "name": "all_users",
+          "recordGuid": "ABF44540-7FA7-F111-A6A7-000D3A7FB247"
+        }
+      ],
+      "name": "ROW_UPDATE",
+      "recordGuid": "A7F44540-7FA7-F111-A6A7-000D3A7FB247",
+      "settings": {
+        "enabled": true
+      },
+      "sourceId": "A1F44540-7FA7-F111-A6A7-000D3A7FB247"
+    },
+    {
+      "filters": [
+        {
+          "filter": {},
+          "filterType": 1,
+          "name": "all_users",
+          "recordGuid": "AAF44540-7FA7-F111-A6A7-000D3A7FB247"
+        }
+      ],
+      "name": "ROW_ADD",
+      "recordGuid": "A8F44540-7FA7-F111-A6A7-000D3A7FB247",
+      "settings": {
+        "enabled": true
+      },
+      "sourceId": "A1F44540-7FA7-F111-A6A7-000D3A7FB247"
+    },
+    {
+      "filters": [
+        {
+          "filter": {},
+          "filterType": 1,
+          "name": "all_users",
+          "recordGuid": "14C3CA73-85A7-F111-A6A7-000D3A7FB247"
+        }
+      ],
+      "name": "ROW_DELETE",
+      "recordGuid": "A9F44540-7FA7-F111-A6A7-000D3A7FB247",
+      "settings": {
+        "deletionType": "hard",
+        "enabled": true
+      },
+      "sourceId": "A1F44540-7FA7-F111-A6A7-000D3A7FB247"
+    }
+  ]
+}

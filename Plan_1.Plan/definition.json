@@ -1,0 +1,98 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/plan/definition/Definition/1.0.0/schema.json",
+  "cube": {
+    "partitionRefIds": []
+  },
+  "semanticModelReference": {
+    "artifactId": 0,
+    "connectionId": "4ea90852-4773-439b-8245-f103e0c1d674",
+    "datasetRelations": [
+      {
+        "dependentArtifactId": 1412431,
+        "settings": "Association"
+      }
+    ],
+    "directLakeMode": false,
+    "directQueryMode": false,
+    "recordGuid": "01a06cb6-301a-7679-829a-79049e7bb714",
+    "semanticModelId": "fc2fce62-dbae-8775-4088-8a084c843959",
+    "semanticModelName": "AV_ContosoRetailDW",
+    "semanticModelWorkspaceId": "00000000-0000-0000-0000-000000000000",
+    "semanticModelWorkspaceName": "WORKSPACE_NAME_PLACEHOLDER",
+    "sourceType": "WORKLOAD",
+    "url": "https://app.powerbi.com/groups/00000000-0000-0000-0000-000000000000/datasets/fc2fce62-dbae-8775-4088-8a084c843959"
+  },
+  "sheets": [
+    {
+      "displayName": "Source",
+      "isHidden": false,
+      "recordGuid": "01a066bb-03b0-746b-9048-644d6c5f4500",
+      "sheetType": "PLANNING",
+      "workloadItemEntityVisuals": [
+        {
+          "isEmbedded": false,
+          "visualId": "01a066bb-0d25-753e-994b-23cbd3380446",
+          "visualType": "PLANNING"
+        }
+      ]
+    },
+    {
+      "displayName": "test_pt1",
+      "isHidden": false,
+      "recordGuid": "01a066bc-2358-77ce-ae46-3dd2d7fdfa31",
+      "sheetType": "POWERTABLE",
+      "workloadItemEntityVisuals": [
+        {
+          "isEmbedded": false,
+          "visualId": "01a066bc-bdcd-75a4-b4b8-1bf593d6aeac",
+          "visualType": "POWERTABLE"
+        }
+      ]
+    },
+    {
+      "displayName": "tets_pt2",
+      "isHidden": false,
+      "recordGuid": "01a066f1-f38d-75cd-8a11-83245dc3d833",
+      "sheetType": "POWERTABLE",
+      "workloadItemEntityVisuals": [
+        {
+          "isEmbedded": false,
+          "visualId": "01a066f4-5a1b-7438-800b-4cf9c1681c9c",
+          "visualType": "POWERTABLE"
+        }
+      ]
+    },
+    {
+      "displayName": "Target",
+      "isHidden": false,
+      "recordGuid": "01a06cb8-d3af-728f-9d2a-2110527f9f2c",
+      "sheetType": "PLANNING",
+      "workloadItemEntityVisuals": [
+        {
+          "isEmbedded": false,
+          "visualId": "01a06cb8-e08a-7308-a802-ddfa79ff267a",
+          "visualType": "PLANNING"
+        }
+      ]
+    },
+    {
+      "displayName": "Intelligence 1",
+      "isHidden": false,
+      "recordGuid": "01a06cbb-088c-754d-a796-a58edfcde6df",
+      "sheetType": "REPORTING",
+      "workloadItemEntityVisuals": [
+        {
+          "isEmbedded": true,
+          "visualId": "01a066bb-0d25-753e-994b-23cbd3380446",
+          "visualType": "PLANNING"
+        },
+        {
+          "isEmbedded": true,
+          "visualId": "01a06cb8-e08a-7308-a802-ddfa79ff267a",
+          "visualType": "PLANNING"
+        }
+      ]
+    }
+  ],
+  "workloadItemName": "Plan_1"
+}

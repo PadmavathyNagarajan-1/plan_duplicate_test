@@ -1,0 +1,67 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/plan/definition/PowerTable/ColumnConfigs/1.0.0/schema.json",
+  "columnConfigs": [
+    {
+      "allowEdit": 1,
+      "columnGuid": "col_1",
+      "columnMeta": {
+        "dbMeta": {
+          "isCompositeUnique": false,
+          "isIdentity": false,
+          "isNullable": false,
+          "isPrimaryKey": true,
+          "isUnique": false,
+          "maxLength": 255,
+          "type": "varchar",
+          "uniqueConstraintName": null
+        },
+        "defaultValue": "",
+        "defaultValueType": "NONE",
+        "isPrimaryKey": true,
+        "maximumAllowedLength": "",
+        "resetToDefaultOnRowModify": false,
+        "textFieldColumnType": "Any Value",
+        "updateValueOnRowModify": false
+      },
+      "columnName": "col_1",
+      "columnType": 1,
+      "description": "",
+      "displayName": "",
+      "hideColumn": 0,
+      "mandatory": 1,
+      "recordGuid": "A3F44540-7FA7-F111-A6A7-000D3A7FB247",
+      "visualColumnType": 1
+    },
+    {
+      "allowEdit": 1,
+      "columnGuid": "col_2",
+      "columnMeta": {
+        "dbMeta": {
+          "isCompositeUnique": false,
+          "isIdentity": false,
+          "isNullable": true,
+          "isPrimaryKey": false,
+          "isUnique": false,
+          "maxLength": 255,
+          "type": "varchar",
+          "uniqueConstraintName": null
+        },
+        "defaultValue": "",
+        "defaultValueType": "NONE",
+        "isPrimaryKey": false,
+        "maximumAllowedLength": "",
+        "resetToDefaultOnRowModify": false,
+        "textFieldColumnType": "Any Value",
+        "updateValueOnRowModify": false
+      },
+      "columnName": "col_2",
+      "columnType": 1,
+      "description": "",
+      "displayName": "",
+      "hideColumn": 0,
+      "mandatory": 0,
+      "recordGuid": "A4F44540-7FA7-F111-A6A7-000D3A7FB247",
+      "visualColumnType": 1
+    }
+  ]
+}

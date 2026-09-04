@@ -1,0 +1,36 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/plan/definition/PowerTable/ColumnConfigs/1.0.0/schema.json",
+  "columnConfigs": [
+    {
+      "allowEdit": 1,
+      "columnGuid": "col1",
+      "columnMeta": {
+        "dbMeta": {
+          "isCompositeUnique": false,
+          "isIdentity": false,
+          "isNullable": false,
+          "isPrimaryKey": true,
+          "isUnique": false,
+          "maxLength": 255,
+          "type": "varchar",
+          "uniqueConstraintName": null
+        },
+        "defaultValue": "",
+        "defaultValueType": "NONE",
+        "isPrimaryKey": true,
+        "maximumAllowedLength": "",
+        "resetToDefaultOnRowModify": false,
+        "textFieldColumnType": "Any Value",
+        "updateValueOnRowModify": false
+      },
+      "columnName": "col1",
+      "columnType": 1,
+      "description": "",
+      "displayName": "",
+      "hideColumn": 0,
+      "mandatory": 1,
+      "recordGuid": "F0BE98BC-87A7-F111-A6A7-000D3A7FB247",
+      "visualColumnType": 1
+    }
+  ]
+}

@@ -1,0 +1,359 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/plan/definition/PowerTable/Properties/1.0.0/schema.json",
+  "properties": {
+    "properties": {
+      "advanceLookup": [],
+      "chartType": "COLUMN_VERTICAL",
+      "dimension": {
+        "height": 0.4,
+        "width": 0.3
+      },
+      "groupMeasureAssignments": [],
+      "groupName": "",
+      "layerProperties": {
+        "order": 0
+      },
+      "lockAspectRatio": false,
+      "mobileProperties": {},
+      "originEntityId": "3",
+      "pivotAssignments": [],
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "preVisualId": "3",
+      "shapeType": "RECTANGLE",
+      "sortingConfig": [],
+      "splitByCategory": {
+        "pivotValueAssignments": [],
+        "splitByCategoryAssignments": [],
+        "splitByCategoryItems": [],
+        "splitByDelimiter": "-"
+      },
+      "superFilterAssignments": [
+        {
+          "configuration": {
+            "filterMode": "basic",
+            "filterOperator": "is",
+            "hide": false,
+            "isExpanded": false,
+            "locked": false,
+            "name": "col1",
+            "selectAll": true,
+            "selectAllState": "UNSELECTED",
+            "singleSelect": false,
+            "sort": [
+              {
+                "columnId": "col1",
+                "columnName": "col1",
+                "direction": "ASC",
+                "id": "col1"
+              }
+            ],
+            "topN": {
+              "displayOthers": true,
+              "isRankEmptyItems": false,
+              "otherLabel": "Others",
+              "rankMeasure": "",
+              "rankMode": "TOP",
+              "rankType": "value",
+              "rankValue": 5
+            },
+            "visualType": "FACET"
+          },
+          "filter": [],
+          "filterLevel": "visual",
+          "id": "col1",
+          "isDeleted": false,
+          "pivotAssignments": [
+            {
+              "bucketId": "",
+              "columnName": "col1",
+              "columnType": "Column",
+              "dataType": "String",
+              "id": "col1",
+              "name": "col1",
+              "order": 0,
+              "sourceId": "col1",
+              "sourceType": "powerTables",
+              "tableName": "tets_pt2"
+            }
+          ],
+          "position": "RIGHT"
+        }
+      ],
+      "transformMeasure": "none",
+      "visualInteractions": {},
+      "visualState": {
+        "assignmentColumnMap": {
+          "3": {
+            "col1": {
+              "columnId": "",
+              "label": "",
+              "parentPath": [],
+              "source": "",
+              "sourceId": ""
+            }
+          }
+        },
+        "columnMeta": {
+          "col1": {
+            "width": 100
+          }
+        },
+        "embeddedSuperFilter": {
+          "assignmentColumnMap": {},
+          "incomingFilterAssignments": [],
+          "powerbiSemanticModelDeps": {
+            "datasetId": "",
+            "datasetName": "",
+            "workspaceName": ""
+          },
+          "superFilterAssignments": []
+        },
+        "gridStyles": {
+          "autoWrapHeaderText": false,
+          "bottomSpace": 0,
+          "categoryGridLines": true,
+          "categoryLabelColor": "#DDDDDD",
+          "cellUpdateBackgroundColor": "#E1F5FF",
+          "chartSpacing": true,
+          "columnSpacing": "off",
+          "columnSpacingValue": 5,
+          "compactSplitLine": false,
+          "compactSplitLineColor": "#E0E0E0",
+          "defaultColors": [],
+          "direction": "ltr",
+          "enableCategoryLabelColor": false,
+          "gridBackground": "#FFFFFF",
+          "headerBackground": "#F5F5F5",
+          "headerGridColor": "#E0E0E0",
+          "headerGridLines": true,
+          "headerSelectionBackgroundColor": "#E6E6E6",
+          "horizontalMinorGridColor": "#E0E0E0",
+          "horizontalMinorGridLines": "solid",
+          "iconColor": "#242424",
+          "indentSpacing": 10,
+          "isLevelIndent": false,
+          "leftSpace": 0,
+          "lineStyleColor": "#666666",
+          "lineStyleFormat": "solid",
+          "majorGridColor": "#b0b0b0",
+          "majorGridLines": "off",
+          "placeholderGridBackground": "#FFFFFF",
+          "primaryColors": [
+            "#117865"
+          ],
+          "restrictedCellBackgroundColor": "#F0F0F0",
+          "rightSpace": 0,
+          "rowDeleteBackgroundColor": "#FFEAEB",
+          "rowDraggerLeftOffset": 0,
+          "rowInsertBackgroundColor": "#EDFFEE",
+          "selectionBackgroundColor": "rgba(95, 95, 95, 0.08)",
+          "selectionBorderColor": "#117865",
+          "showExpandCollapse": true,
+          "showVAHighlight": true,
+          "titleAndChartSpace": 4,
+          "topSpace": 0,
+          "verticalMinorGridColor": "#E0E0E0",
+          "verticalMinorGridLines": "solid"
+        },
+        "locale": "en-US",
+        "manageMeasures": [
+          {
+            "id": "col1",
+            "label": "col1",
+            "measureType": "data",
+            "name": "col1",
+            "order": 0,
+            "visible": true
+          }
+        ],
+        "mdmLayout": {
+          "activeLayout": "table",
+          "childHeaderTableControlConfiguration": {},
+          "configuration": null,
+          "ganttViewColVisibility": {},
+          "layoutVisibility": {},
+          "parentApprovalMeta": {},
+          "tableModeColVisibility": {}
+        },
+        "superFilter": {
+          "col1": {
+            "appData": [],
+            "columnMeta": {
+              "columnGuid": "col1",
+              "columnMeta": {
+                "dbMeta": {
+                  "isIdentity": false,
+                  "isNullable": false,
+                  "isPrimaryKey": true,
+                  "type": "varchar"
+                },
+                "textFieldColumnType": "Any Value"
+              },
+              "columnName": "col1",
+              "columnType": 1,
+              "displayName": "",
+              "id": "3",
+              "sourceId": 2,
+              "visualColumnType": 1
+            },
+            "configuration": {
+              "filterMode": "basic",
+              "filterOperator": "is",
+              "hide": false,
+              "isExpanded": false,
+              "locked": false,
+              "name": "col1",
+              "selectAll": true,
+              "selectAllState": "UNSELECTED",
+              "singleSelect": false,
+              "sort": [
+                {
+                  "columnId": "col1",
+                  "columnName": "col1",
+                  "direction": "ASC",
+                  "id": "col1"
+                }
+              ],
+              "topN": {
+                "displayOthers": true,
+                "isRankEmptyItems": false,
+                "otherLabel": "Others",
+                "rankMeasure": "",
+                "rankMode": "TOP",
+                "rankType": "value",
+                "rankValue": 5
+              },
+              "visualType": "FACET"
+            },
+            "filter": [],
+            "isLoading": true,
+            "tableName": "tets_pt2",
+            "topNMeasureOptions": []
+          }
+        },
+        "superFilterAssignments": [
+          {
+            "configuration": {
+              "filterMode": "basic",
+              "filterOperator": "is",
+              "hide": false,
+              "isExpanded": false,
+              "locked": false,
+              "name": "col1",
+              "selectAll": true,
+              "selectAllState": "UNSELECTED",
+              "singleSelect": false,
+              "sort": [
+                {
+                  "columnId": "col1",
+                  "columnName": "col1",
+                  "direction": "ASC",
+                  "id": "col1"
+                }
+              ],
+              "topN": {
+                "displayOthers": true,
+                "isRankEmptyItems": false,
+                "otherLabel": "Others",
+                "rankMeasure": "",
+                "rankMode": "TOP",
+                "rankType": "value",
+                "rankValue": 5
+              },
+              "visualType": "FACET"
+            },
+            "filter": [],
+            "filterLevel": "visual",
+            "id": "col1",
+            "isDeleted": false,
+            "pivotAssignments": [
+              {
+                "bucketId": "",
+                "columnName": "col1",
+                "columnType": "Column",
+                "dataType": "String",
+                "id": "col1",
+                "name": "col1",
+                "order": 0,
+                "sourceId": "col1",
+                "sourceType": "powerTables",
+                "tableName": "tets_pt2"
+              }
+            ],
+            "position": "RIGHT"
+          }
+        ],
+        "superFilterMetaConfig": {
+          "orderedFilterIds": [
+            "col1"
+          ]
+        }
+      },
+      "visualStyles": {
+        "background": {
+          "backgroundColor": "#fff",
+          "isEnabled": true
+        },
+        "border": {
+          "color": "#ddd",
+          "isEnabled": false,
+          "side": "all",
+          "width": 0
+        },
+        "cornerRadius": {
+          "isCustomCornerRadius": false,
+          "isEnabled": true,
+          "radiusBottomLeft": 0,
+          "radiusBottomRight": 0,
+          "radiusTopLeft": 0,
+          "radiusTopRight": 0
+        },
+        "isTooltipEnabled": true,
+        "padding": {
+          "bottomPadding": 5,
+          "isCustomPaddingSize": false,
+          "isEnabled": true,
+          "leftPadding": 5,
+          "rightPadding": 5,
+          "topPadding": 5
+        },
+        "rotation": {
+          "isEnabled": false,
+          "transform": 0
+        },
+        "shadow": {
+          "angle": 0,
+          "blur": 0,
+          "color": "#000000",
+          "distance": 10,
+          "isEnabled": false,
+          "opacity": 100,
+          "placement": "outer",
+          "side": "center",
+          "width": 0
+        },
+        "showHelperTooltips": true,
+        "showSelectedSeriesInTooltip": false,
+        "tooltipPageId": "auto",
+        "tooltipStyle": {
+          "backgroundColor": "#FFFFFF",
+          "bold": false,
+          "fontFamily": "Segoe UI",
+          "fontSize": 12,
+          "italic": false,
+          "labelColor": "#252423",
+          "underline": false,
+          "valueColor": "#252423"
+        },
+        "tooltipType": "default",
+        "varianceInTooltip": true,
+        "varianceTooltipType": "both"
+      },
+      "visualType": 30
+    },
+    "schema": "0.0.1"
+  }
+}

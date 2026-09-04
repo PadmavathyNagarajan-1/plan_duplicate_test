@@ -1,0 +1,41 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/plan/definition/Definition/1.0.0/schema.json",
+  "cube": {
+    "partitionRefIds": []
+  },
+  "semanticModelReference": {
+    "artifactId": 0,
+    "connectionId": "4ea90852-4773-439b-8245-f103e0c1d674",
+    "datasetRelations": [
+      {
+        "dependentArtifactId": 1412431,
+        "settings": "Association"
+      }
+    ],
+    "directLakeMode": false,
+    "directQueryMode": false,
+    "recordGuid": "01a06cb6-0d91-751e-be63-c40747b22ddc",
+    "semanticModelId": "fc2fce62-dbae-8775-4088-8a084c843959",
+    "semanticModelName": "AV_ContosoRetailDW",
+    "semanticModelWorkspaceId": "00000000-0000-0000-0000-000000000000",
+    "semanticModelWorkspaceName": "WORKSPACE_NAME_PLACEHOLDER",
+    "sourceType": "WORKLOAD",
+    "url": "https://app.powerbi.com/groups/00000000-0000-0000-0000-000000000000/datasets/fc2fce62-dbae-8775-4088-8a084c843959"
+  },
+  "sheets": [
+    {
+      "displayName": "Planning 1",
+      "isHidden": false,
+      "recordGuid": "01a06cb8-a0e0-73a8-8594-c08835b6a053",
+      "sheetType": "PLANNING",
+      "workloadItemEntityVisuals": [
+        {
+          "isEmbedded": false,
+          "visualId": "01a06cb8-a8fe-72cc-8e2c-ef3d8c521958",
+          "visualType": "PLANNING"
+        }
+      ]
+    }
+  ],
+  "workloadItemName": "plan_test_duplicate_plan_src"
+}
